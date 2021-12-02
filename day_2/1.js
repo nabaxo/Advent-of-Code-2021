@@ -1,6 +1,3 @@
-// import { input } from './input_1.js';
-// const input = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
-
 const fs = require('fs');
 
 let input;
