@@ -1,5 +1,6 @@
-import { input } from './input.js';
-// const input = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
+const fs = require('fs');
+
+const input = fs.readFileSync('./input.txt').toString().replace(/\r\n/g, '\n').split('\n').map(e => parseInt(e));
 
 let output = 0;
 
