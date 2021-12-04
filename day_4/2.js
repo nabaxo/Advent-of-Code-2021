@@ -16,7 +16,6 @@ let input = fs.readFileSync('./input.txt')
     ));
 
 let output;
-let bingo = false;
 let winningNumber;
 
 for (let i = 0; i < draws.length; i++) {
@@ -34,7 +33,6 @@ for (let i = 0; i < draws.length; i++) {
         }
 
         if (b.length) {
-            // bingo = true;
             input.splice(input.indexOf(board), 1);
             output = board;
         }
