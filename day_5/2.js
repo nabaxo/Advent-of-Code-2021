@@ -29,7 +29,6 @@ let board = Array.from(Array(y + 1), () => {
 input.forEach(e => {
     let x = [e[0], e[2]];
     let y = [e[1], e[3]];
-    // console.log({ x, y });
 
     if (x[0] === x[1]) {
         x = x[0];
@@ -56,7 +55,6 @@ input.forEach(e => {
         }
     }
     else {
-        // console.log({ x, y });
         let yStart;
         let yEnd;
         let xStart;
@@ -96,5 +94,4 @@ input.forEach(e => {
 });
 
 // console.table(board);
-// console.log(board.flat().filter(e => e > 1));
 console.log(board.flat().filter(e => e > 1).length);
