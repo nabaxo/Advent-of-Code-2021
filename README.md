@@ -10,3 +10,5 @@ folder in terminal and run:
 ```bash
 $ node [name_of_file].js
 ```
+
+(Note that the input file cannot have a final empty line).
